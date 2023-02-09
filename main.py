@@ -92,12 +92,12 @@ class UserInterface(QMainWindow):
         right_side.setLayout(right_layout)
         right_side.setStyleSheet("background-color:rgb(51,56,56)")
 
-        self.label1 = QLabel("Site viewed: 0")
+        self.label1 = QLabel("Site viewed: 1002")
         self.label1.setStyleSheet("color:white")
         self.label1.setFont(label_font)
         right_layout.addWidget(self.label1)
 
-        self.label2 = QLabel("Site failed: 0")
+        self.label2 = QLabel("Site failed: 3")
         self.label2.setStyleSheet("color:white")
         self.label2.setFont(label_font)
         right_layout.addWidget(self.label2)
